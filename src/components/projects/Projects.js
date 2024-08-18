@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFour } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour,projectFive } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -44,7 +44,7 @@ const Projects = () => {
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          src={projectFive}
         />
         <ProjectsCard
           title="Chatting App"
